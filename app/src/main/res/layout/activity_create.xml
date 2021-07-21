@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".create.CreateActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/id_edit_text"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:inputType="number"
+        android:hint="ID" />
+
+    <EditText
+        android:id="@+id/name_edit_text"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/email_edit_text"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:hint="Email" />
+
+    <Button
+        android:id="@+id/create_button"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="CREATE" />
+
+</LinearLayout>

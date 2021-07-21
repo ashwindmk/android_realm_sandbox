@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".read.ReadAllActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/read_all_button"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:text="READ ALL"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/change_one_button"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:text="CHANGE ONE"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/read_one_button"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:text="READ ONE"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/delete_all_button"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:text="DELETE ALL"
+        android:layout_marginBottom="24dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp">
+
+        <TextView
+            android:id="@+id/all_record_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello world" />
+
+    </ScrollView>
+
+</LinearLayout>
